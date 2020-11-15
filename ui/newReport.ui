@@ -1,0 +1,1058 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QStackedWidget" name="stackedWidget">
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="page">
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_4">
+         <item>
+          <spacer name="horizontalSpacer_4">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton">
+           <property name="text">
+            <string>Önceki Sayfa</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_2">
+           <property name="text">
+            <string>Sonraki Sayfa</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <item>
+          <widget class="QLabel" name="label">
+           <property name="font">
+            <font>
+             <pointsize>15</pointsize>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string>Zer Yağ San. ve Tic. A.Ş.</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeType">
+            <enum>QSizePolicy::Fixed</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_2">
+           <property name="font">
+            <font>
+             <pointsize>15</pointsize>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string>MARGARİN ÜRETİM RAPORU</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_2">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeType">
+            <enum>QSizePolicy::Fixed</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_3">
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="Line" name="line_2">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="verticalSpacer">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeType">
+          <enum>QSizePolicy::Fixed</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_3">
+         <item>
+          <widget class="QLabel" name="label_4">
+           <property name="font">
+            <font>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>Vardiya :</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="comboBox"/>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_5">
+           <property name="font">
+            <font>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>Çalışan Sistem :</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="comboBox_2"/>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_6">
+           <property name="font">
+            <font>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>Tarih :</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QDateEdit" name="dateEdit"/>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="QTableWidget" name="tableWidget">
+         <row>
+          <property name="text">
+           <string>1</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>2</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>3</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>4</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>5</string>
+          </property>
+         </row>
+         <column>
+          <property name="text">
+           <string>ÜRETİM CİNSİ</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>PARTİ NO</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>TOPLAM ÜRETİM ADET / KOLİ</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>ÜRETİM TONAJI</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>DURUŞ SAATİ</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>BAŞLAMA SAATİ</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>TOPLAM DURUŞ Dk.</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>KODLANAN TARİH</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>DURUŞ NEDENİ BAKIM, ONARIM</string>
+          </property>
+         </column>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_7">
+         <property name="font">
+          <font>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>YAĞ ZAYİATI</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QTableWidget" name="tableWidget_2">
+         <row>
+          <property name="text">
+           <string>1</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>2</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>3</string>
+          </property>
+         </row>
+         <column>
+          <property name="text">
+           <string>ÜRETİM CİNSİ</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>ÜRETİM YAĞ ZAYİATI</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>MAKİNE YAĞ ZAYİATI</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>AR-GE DENEME YAĞ ZAYİATI</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>YIKAMA YAĞ ZAYİATI KG</string>
+          </property>
+         </column>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_8">
+         <property name="font">
+          <font>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>MALZEME ZAYİATI</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QTableWidget" name="tableWidget_3">
+         <row>
+          <property name="text">
+           <string>1</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>2</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>3</string>
+          </property>
+         </row>
+         <column>
+          <property name="text">
+           <string>ÜRETİM CİNSİ</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>TENEKE ADET</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>ASEPTİK ADET</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>KARTON ADET</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>FOLYO ADET</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>KAPAK ADET</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>POŞET ADET</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>PET ADET</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>KOVA ADET</string>
+          </property>
+         </column>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="page_2">
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_5">
+         <item>
+          <spacer name="horizontalSpacer_5">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_3">
+           <property name="text">
+            <string>Önceki Sayfa</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_4">
+           <property name="text">
+            <string>Sonraki Sayfa</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_2">
+         <item>
+          <widget class="QLabel" name="label_10">
+           <property name="font">
+            <font>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>FİLİTRE KONTROLÜ YAPILDI / YAPILMADI :</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_3">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeType">
+            <enum>QSizePolicy::Fixed</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>70</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QRadioButton" name="radioButton">
+           <property name="font">
+            <font>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>Yapıldı</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QRadioButton" name="radioButton_2">
+           <property name="font">
+            <font>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>Yapılmadı</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="Line" name="line">
+         <property name="font">
+          <font>
+           <weight>50</weight>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_9">
+         <property name="font">
+          <font>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>PROSES ŞARTLARI</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QTableWidget" name="tableWidget_4">
+         <row>
+          <property name="text">
+           <string>EMULSION TANK 1 / 2 SICAKLIĞI *C</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>PERFEKTÖR ŞAFT SU SICAKLIĞI VE KONTROLÜ</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>MEKANİK SALMASTRA SU SICAKLIĞI VE KONTROLÜ</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>RESTİNG TÜP VE SIG TÜPE GİREN SU SICAKLIĞI *C</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>SU %</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>DOLUM BAR BASINCI</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>YÜKSEK BASINÇ POMPA MOTOR HIZI, AMPER</string>
+          </property>
+         </row>
+         <column>
+          <property name="text">
+           <string/>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string/>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string/>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string/>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string/>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string/>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string/>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string/>
+          </property>
+         </column>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_11">
+         <property name="font">
+          <font>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>PERFEKTÖR KOŞULLARI</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QTableWidget" name="tableWidget_5">
+         <row>
+          <property name="text">
+           <string>1 NOLU ŞAFT SICAKLIĞI / SET DEĞERİ</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>1 NOLU ŞAFT AKIMI (AMPER)</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>1 NOLU AMONYAK ÇIKIŞ *C / BAR BASINCI</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>2 NOLU ŞAFT SICAKLIĞI / SET DEĞERİ</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>2 NOLU ŞAFT AKIMI (AMPER)</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>2 NOLU AMONYAK ÇIKIŞ *C / BAR BASINCI</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>3 NOLU ŞAFT SICAKLIĞI / SET DEĞERİ</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>3 NOLU ŞAFT AKIMI (AMPER)</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>3 NOLU AMONYAK ÇIKIŞ *C / BAR BASINCI</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>4 NOLU ŞAFT SICAKLIĞI / SET DEĞERİ</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>4 NOLU ŞAFT AKIMI (AMPER)</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>4 NOLU AMONYAK ÇIKIŞ *C / BAR BASINCI</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>1 NOLU ÇIRPICI SICAKLIĞI *C</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>1 NOLU ÇIRPICI AKIMI (AMPER)</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>1 NOLU ÇIRPICI RPM</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>2 NOLU ÇIRPICI SICAKLIĞI *C</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>2 NOLU ÇIRPICI AKIMI (AMPER)</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>2 NOLU ÇIRPICI RPM</string>
+          </property>
+         </row>
+         <column>
+          <property name="text">
+           <string/>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string/>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string/>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string/>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string/>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string/>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string/>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string/>
+          </property>
+         </column>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="page_3">
+      <layout class="QVBoxLayout" name="verticalLayout_4">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_6">
+         <item>
+          <spacer name="horizontalSpacer_6">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_5">
+           <property name="text">
+            <string>Önceki Sayfa</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_6">
+           <property name="text">
+            <string>Sonraki Sayfa</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_12">
+         <property name="font">
+          <font>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>AMBALAJ BİLGİLERİ</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QTableWidget" name="tableWidget_6">
+         <row>
+          <property name="text">
+           <string>EGLI EMULSION TANKI 1</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>EGLI EMULSION TANKI 2</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>EGLI AROMA TANKI 1</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>EGLI AROMA TANKI 2</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>EGLI SU FAZI TANKI 1</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>EGLI SU FAZI TANKI 2</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>SPX EMULSION TANKI 1</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>SPX EMULSION TANKI 2</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>SPX AROMA TANKI 1</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>SPX AROMA TANKI 2</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>SPX SU FAZI TANKI 1</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>SPX SU FAZI TANKI 2</string>
+          </property>
+         </row>
+         <column>
+          <property name="text">
+           <string/>
+          </property>
+         </column>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_13">
+         <property name="font">
+          <font>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>ÇALIŞAN ELEMANLAR</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QTableWidget" name="tableWidget_7">
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <column>
+          <property name="text">
+           <string>ADI SOYADI</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>GÖREVİ</string>
+          </property>
+         </column>
+        </widget>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_7">
+         <item>
+          <widget class="QLabel" name="label_14">
+           <property name="font">
+            <font>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>VARDİYA USTASI :</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="lineEdit"/>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_15">
+           <property name="font">
+            <font>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>USTA BAŞI :</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="lineEdit_2"/>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_16">
+           <property name="font">
+            <font>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>ÜRETİM MÜHENDİSİ :</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="lineEdit_3"/>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <spacer name="verticalSpacer_2">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeType">
+          <enum>QSizePolicy::Fixed</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_7">
+         <property name="font">
+          <font>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>Raporu Kayıtlara Ekle</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

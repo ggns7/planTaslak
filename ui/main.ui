@@ -26,7 +26,7 @@
        </font>
       </property>
       <property name="text">
-       <string>Margarin Bölümü Üretim Raporları</string>
+       <string>Üretim Raporları</string>
       </property>
       <property name="alignment">
        <set>Qt::AlignCenter</set>

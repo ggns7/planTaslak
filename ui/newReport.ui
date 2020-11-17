@@ -64,7 +64,7 @@
             </font>
            </property>
            <property name="text">
-            <string>Zer Yağ San. ve Tic. A.Ş.</string>
+            <string>Firma adı</string>
            </property>
           </widget>
          </item>
@@ -94,7 +94,7 @@
             </font>
            </property>
            <property name="text">
-            <string>MARGARİN ÜRETİM RAPORU</string>
+            <string>Bölüm adı</string>
            </property>
           </widget>
          </item>
@@ -117,7 +117,7 @@
          <item>
           <widget class="QLabel" name="label_3">
            <property name="text">
-            <string/>
+            <string>logo</string>
            </property>
           </widget>
          </item>
